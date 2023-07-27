@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.navbar ul {
+    margin: 5px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sign {
+    color: rgb(240, 39, 39);
+    transition: 0.7s;
+}
+
+.sign:hover {
+    color: brown;
+}
+
+.log {
+    background: rgb(240, 39, 39);
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.7s;
+}
+
+.log:hover {
+    color: brown;
+    color: white;
+    box-shadow: 2px 4px #888888;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg {
+    background: url(images/head.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.bg-items {
+    display: inline-block;
+    padding-left: 45%;
+    padding-top: 30%;
+}
+
+.bg-items img {
+    width: 100px;
+    align-items: center;
+}
+
+.bg-text h4 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.about {
+    background-color: brown;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+}
+
+.about-items {
+    background-image: url(images/services.jpeg);
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+}
+
+h6 {
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.about-items p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.how-it-works {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+
+    margin: auto;
+}
+
+.how-it-works h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.hiw-row {
+    background-color: brown;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.hiw-col,
+.hiw-col-2 {
+    flex-basis: 50%;
+
+}
+
+.hiw-row img {
+    width: 65%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.hiw-col p,
+.hiw-col-2 p {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.problem {
+    width: 100%;
+
+    margin: auto;
+    margin-top: 40px;
+}
+
+.problem h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 38px;
+}
+
+.problem-row {
+    background-color: brown;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 20px;
+    padding: 29px 10px;
+}
+
+.problem-col img {
+    width: 100%;
+    padding: 30px 0;
+    height: 280px;
+}
+
+.problem-col {
+    flex-basis: 30%;
+}
+
+.btn {
+    background: rgb(240, 39, 39);
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background: rgb(240, 113, 39);
+}
+
+.problem-col p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.request {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    background: url(images/request.jpeg);
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 800px;
+    padding: 20px 0;
+    height: 30px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid white
+}
+
+.testimonials {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 38px;
+    margin: 30px;
+}
+
+.t-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.t-left-col-1,
+.t-left-col-2 {
+    flex-basis: 50%;
+
+}
+
+.t-left-col-1 img {
+    width: 99%;
+    border-radius: 10px;
+    height: 550px;
+}
+
+.t-left-col-2 img {
+    width: 99%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.t-right-col-1,
+.t-right-col-2 {
+    flex-basis: 50%;
+    padding: 0 30px;
+    text-align: center;
+    background: brown;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.t-right-col-1 p {
+    font-size: 45px;
+    color: white;
+}
+
+.t-right-col-1 h4 {
+    font-size: 15px;
+    color: white;
+    padding-top: 5px;
+}
+
+.t-right-col-1 small {
+    font-size: 10px;
+    color: white;
+}
+
+.t-right-col-2 p {
+    font-size: 35px;
+    color: white;
+}
+
+.t-right-col-2 h4 {
+    font-size: 10px;
+    color: white;
+    padding-top: 5px;
+}
+
+.t-right-col-2 small {
+    font-size: 10px;
+    color: white;
+}
+
+#footer {
+    padding: 0 20px;
+    margin: auto;
+}
+
+hr {
+    width: 100%;
+    margin-top: 34px;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 45%;
+    margin-top: 30px;
+}
+
+.footer-right-col {
+    flex-basis: 40%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4 {
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.link-title small {
+    font-size: 13px;
+    color: #777;
+    cursor: pointer;
+}
+
+.link-title small:hover {
+    color: brown;
+}
+
+.footer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-logo button {
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.copyright-text,
+.footer-logo {
+    flex-basis: 30%;
+}
